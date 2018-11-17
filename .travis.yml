@@ -1,0 +1,13 @@
+#role user
+sudo: required
+#OS yang digunakan, precies, trusty, xenial
+dist: trusty
+#Bahasa yang digunakan
+language: php
+#Versi bahasa yang digunakan
+- 7.1
+#Branch apa saja yang mau digunakan
+branches:
+  only:
+    - master
+    - develop
